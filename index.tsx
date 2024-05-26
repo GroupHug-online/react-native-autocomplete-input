@@ -74,7 +74,7 @@ function AutocompleteInputComponent<Item, Ref>(
     onStartShouldSetResponderCapture = () => false,
   } = props;
 
-  const showResults = !hideResults;
+  const showResults = !Boolean(hideResults);
   onShowResults && onShowResults(showResults);
 
   return (

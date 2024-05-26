@@ -2,7 +2,7 @@
 .DS_Store
 
 # Build
-dist
+
 
 # node.js
 node_modules/
